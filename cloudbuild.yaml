@@ -4,7 +4,7 @@ steps:
   - functions
   - deploy
   - hello_world
-  - --source= function-source.zip
+  - --source= ./function-source.zip
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
