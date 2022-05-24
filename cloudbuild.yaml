@@ -8,4 +8,4 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticate
-  logsbucket-gs://aseemtest.searceinc.org
+- logsbucket-gs://aseemtest.searceinc.org
