@@ -7,4 +7,4 @@ steps:
   - --source=${https://github.com/aseem
   - --trigger-http
   - --runtime=python37
-  - --allow-unauthenticate
+  - --allow-unauthenticated
