@@ -1,11 +1,11 @@
 steps:
-- name: "gcr.io/cloud-builders/gcloud"
+- name: 'gcr.io/cloud-builders/gcloud'
   args:
   - functions
   - deploy
   - hello_world
-  - --source=${https://github.com/aseemgupta02/cloudbuildtest/blob/7e921a719c9f4b77f1938bfd4612039462b3e6df/function-source.zip}
+  - --source=${https://github.com/aseem
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
- 
+  logsbucket-gs://aseemtest.searceinc.org
