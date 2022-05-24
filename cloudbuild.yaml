@@ -1,6 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  logsbucket-gs://aseemtest.searceinc.org
   args:
   - functions
   - deploy
@@ -9,3 +8,4 @@ steps:
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticate
+  logsbucket-gs://aseemtest.searceinc.org
