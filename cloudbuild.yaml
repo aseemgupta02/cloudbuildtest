@@ -4,8 +4,7 @@ steps:
   - functions
   - deploy
   - hello_world
-  - --source=function-source.zip
+  - --source=.
   - --trigger-http
   - --runtime=python37
   - --allow-unauthenticated
-logsBucket: 'gs://aseemtest.searceinc.org'
